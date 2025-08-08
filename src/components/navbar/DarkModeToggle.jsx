@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaRegMoon } from 'react-icons/fa';
-import './navbar.css';
+import './Navbar.css';
 
 
 const DarkModeToggle = () => {

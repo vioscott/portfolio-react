@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import "./Testimonials.css";
+import "./testimonials.css";
 import { addTestimonial, getApprovedTestimonials } from "../../firebase/testimonialService";
 
 const containerVariants = {

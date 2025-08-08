@@ -6,7 +6,7 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
-import "./Footer.css";
+import "./footer.css";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },

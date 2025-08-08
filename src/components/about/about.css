@@ -1,0 +1,237 @@
+.about-section {
+  background-color: white;
+  padding: 64px 16px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about-container .icon{
+  background-color: #1a202c;
+  color: #f0f0f0;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 4px 5px;
+  margin-right: 16px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.about-subtitle {
+  text-align: center;
+  color: #718096;
+  margin-bottom: 48px;
+  font-size: 1.05rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-block {
+  margin-bottom: 16px;
+}
+
+.about-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.about-block p {
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.personal-info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  color: #2d3748;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.tech-skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 1rem;
+}
+
+.tech-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.05);
+}
+
+.tech-skill-name {
+  font-weight: 600;
+  color: #222;
+}
+
+.tech-skill-level {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.tech-skill-level.beginner {
+  background-color: #ffe5e5;
+  color: #d00000;
+}
+
+.tech-skill-level.intermediate {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.tech-skill-level.advanced {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+
+
+@media (min-width: 640px) {
+  .personal-info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.download-button-wrapper {
+  margin-top: 16px;
+  max-width: 370px;
+}
+
+.btn-outline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #1a202c;
+  background: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: #1a202c;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ========== Dark Mode Overrides ========== */
+body.dark .about-section {
+  background-color: #0f172a;
+}
+
+body.dark .about-title {
+  color: #f8fafc;
+}
+
+body.dark .about-subtitle {
+  color: #cbd5e1;
+}
+
+body.dark .about-container .icon {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+body.dark .about-heading {
+  color: #f8fafc;
+}
+
+body.dark .about-block p {
+  color: #94a3b8;
+}
+
+body.dark .personal-info-grid {
+  color: #e2e8f0;
+}
+
+body.dark .btn-outline {
+  border-color: #f8fafc;
+  color: #f8fafc;
+}
+
+body.dark .btn-outline:hover {
+  color: #38bdf8;
+  border-color: #38bdf8;
+}
+
+body.dark .about-image {
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* 🌙 DARK MODE STYLES */
+
+body.dark .tech-skill {
+  background: #1e1e1e;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .tech-skill-name {
+  color: #e0e0e0;
+}
+
+body.dark .tech-skill-level.beginner {
+  background-color: #4a1a1a;
+  color: #ff6b6b;
+}
+
+body.dark .tech-skill-level.intermediate {
+  background-color: #4a3a1a;
+  color: #ffd166;
+}
+
+body.dark .tech-skill-level.advanced {
+  background-color: #1f3a2c;
+  color: #8ef5c0;
+}

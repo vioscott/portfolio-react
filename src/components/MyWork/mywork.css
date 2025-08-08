@@ -1,0 +1,192 @@
+.mywork {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.mywork_title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.mywork_title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1a202c;
+}
+
+.mywork_title img {
+  width: 120px;
+  height: auto;
+}
+
+.mywork_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+}
+
+.work-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.work-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.work-image-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.work-card:hover .work-image-container img {
+  transform: scale(1.05);
+}
+
+.work-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.work-card:hover .work-overlay {
+  opacity: 1;
+}
+
+.work-overlay-content {
+  width: 100%;
+  color: white;
+}
+
+.work-title-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.work-title-link:hover {
+  color: #38bdf8;
+}
+
+.work-title-link h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.work-description {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  margin: 8px 0 12px 0;
+  opacity: 0.9;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.work-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.work-link-btn:hover {
+  color: #0ea5e9;
+}
+
+@media (min-width: 640px) {
+  .mywork_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .mywork_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.mywork_showmore {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #1a202c;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.mywork_showmore:hover {
+  color: #2b6cb0;
+}
+
+
+/* ===== Dark Mode Overrides ===== */
+body.dark .mywork {
+  background-color: #0f172a;
+}
+
+body.dark .mywork_title h1 {
+  color: #f8fafc;
+}
+
+body.dark .mywork_showmore {
+  color: #f8fafc;
+}
+
+body.dark .mywork_showmore:hover {
+  color: #38bdf8;
+}
+
+body.dark .work-card {
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.08);
+}
+
+body.dark .work-card:hover {
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.15);
+}
+
+body.dark .work-title-link:hover {
+  color: #38bdf8;
+}
+
+body.dark .work-link-btn {
+  color: #38bdf8;
+}
+
+body.dark .work-link-btn:hover {
+  color: #0ea5e9;
+}

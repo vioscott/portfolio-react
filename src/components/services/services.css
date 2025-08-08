@@ -1,0 +1,146 @@
+.services {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.services_title {
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.services_title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1a202c;
+}
+
+.services_container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .services_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.services_card {
+  background-color: #f7fafc;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease; /* Keep box-shadow transition */
+  will-change: transform;
+}
+
+
+.services_card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+.services_card h3 {
+  font-size: 1.5rem;
+  color: #4a5568;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.services_card h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.services_card p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.services_readmore {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #1a202c;
+  transition: color 0.2s ease;
+}
+
+.services_readmore:hover {
+  color: #2b6cb0;
+  font-weight: 600;
+}
+
+
+.services_readmore .readmore_arrow {
+  display: inline-flex;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+
+/* ========== Dark Mode Overrides ========== */
+body.dark .services {
+  background-color: #0f172a;
+}
+
+body.dark .services_title h1 {
+  color: #f8fafc;
+}
+
+body.dark .services_card {
+  background-color: #1e293b;
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.04);
+}
+
+body.dark .services_card h3 {
+  color: #cbd5e1;
+}
+
+body.dark .services_card h2 {
+  color: #e2e8f0;
+}
+
+body.dark .services_card p {
+  color: #94a3b8;
+}
+
+body.dark .services_readmore {
+  color: #f8fafc;
+}
+
+body.dark .services_readmore:hover {
+  color: #38bdf8;
+}
+
+.services_card:nth-child(odd) {
+  background-color: #f7fafc;
+}
+
+.services_card:nth-child(even) {
+  background-color: #edf2f7;
+}
+
+body.dark .services_card:nth-child(odd) {
+  background-color: #1e293b;
+}
+
+body.dark .services_card:nth-child(even) {
+  background-color: #273449;
+}

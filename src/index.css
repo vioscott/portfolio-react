@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+body{
+    font-family: 'outfit';
+    background-color: #f0f0f0;
+    color: #032043;
+    height: 100vh;
+    overflow-y: auto;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+body.dark {
+  background-color: #1a202c;
+  color: #f1f5f9;
+}
+
+

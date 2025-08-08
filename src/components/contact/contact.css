@@ -1,0 +1,217 @@
+.contact-section {
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 80px auto 0 auto;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #0f172a;
+  color: white;
+}
+
+.secondary {
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.social-links {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: #0f172a;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.social-text {
+  flex: 1;
+}
+
+.social-text p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 4px 0 0 0;
+}
+
+.arrow {
+  font-size: 20px;
+  color: #888;
+}
+
+.message-form {
+  flex: 1;
+  min-width: 280px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+}
+
+.message-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.message-form input,
+.message-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.submit {
+  background: #0f172a;
+  color: white;
+  font-weight: bold;
+}
+
+.support-section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.qr-code {
+  width: 40%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  transition: background 0.3s;
+}
+
+.social-card:hover {
+  background-color: #f9f9f9;
+}
+
+
+/* === Dark Mode Styles === */
+body.dark .contact-section {
+  background-color: #0f172a;
+}
+
+body.dark .support-section{
+  background-color: #0f172a;
+}
+
+body.dark .contact-title {
+  color: #f8fafc;
+}
+
+body.dark .contact-subtitle {
+  color: #cbd5e0;
+}
+
+body.dark .secondary {
+  background-color: #1e293b;
+  color: #f8fafc;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .social-card {
+  background: #1e293b;
+  color: #f8fafc;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.03);
+}
+
+body.dark .social-text p {
+  color: #a0aec0;
+}
+
+body.dark .arrow {
+  color: #94a3b8;
+}
+
+body.dark .message-form {
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+body.dark .message-form input,
+body.dark .message-form textarea {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  color: #f8fafc;
+}
+
+body.dark .submit {
+  background: #334155;
+  color: white;
+}

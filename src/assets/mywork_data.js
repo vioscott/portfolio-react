@@ -1,5 +1,6 @@
 import project1_img from '../assets/promptArena.png';
-import project2_img from '../assets/freelance.png'
+import project2_img from '../assets/freelance.png';
+import project3_img from '../assets/MedLens.png';
 
 const mywork_data = [
 
@@ -19,9 +20,9 @@ const mywork_data = [
   },
   {
     type: 'web',
-    w_img: '/images/web3.png',
-    w_name: 'Blog CMS',
-    w_description: 'A content management system for bloggers and content creators. Features rich text editing, media management, SEO optimization, and multi-author support with role-based permissions.',
+    w_img: project3_img,
+    w_name: 'MedLens AI',
+    w_description: 'MedLens is a comprehensive medical transcription and analysis platform that leverages AI to transform healthcare documentation.',
     w_link: 'https://your-blog-cms.com',
   },
 

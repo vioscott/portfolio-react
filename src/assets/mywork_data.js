@@ -23,7 +23,7 @@ const mywork_data = [
     w_img: project3_img,
     w_name: 'MedLens AI',
     w_description: 'MedLens is a comprehensive medical transcription and analysis platform that leverages AI to transform healthcare documentation.',
-    w_link: 'https://your-blog-cms.com',
+    w_link: 'https://medlensai.netlify.app/',
   },
 
   // Mobile Projects

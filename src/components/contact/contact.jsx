@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaTwitter,
   FaInstagram,
+  FaMedium,
 } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
@@ -118,6 +119,12 @@ const Contact = () => {
                 description: "Let's connect professionally",
                 icon: <FaLinkedin />,
                 link: "https://www.linkedin.com/in/victor-onyedikachi",
+              },
+              {
+                platform: "Medium",
+                description: "My thoughts and writings on UI/UX",
+                icon: <FaMedium />,
+                link: "https://medium.com/vioscott",
               },
               {
                 platform: "Instagram",

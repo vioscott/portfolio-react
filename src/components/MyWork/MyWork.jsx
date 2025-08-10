@@ -108,14 +108,14 @@ const MyWork = () => {
         ))}
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         className="mywork_showmore"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
         <p>Show More</p>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

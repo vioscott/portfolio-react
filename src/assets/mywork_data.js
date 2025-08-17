@@ -1,6 +1,12 @@
 import project1_img from '../assets/promptArena.png';
 import project2_img from '../assets/freelance.png';
 import project3_img from '../assets/MedLens.png';
+import flyer1_img from '../assets/flyer1.jpg';
+import flyer7_img from '../assets/flyer7.jpg';
+import flyer2_img from '../assets/flyer2.jpg';
+import flyer4_img from '../assets/flyer4.jpg';
+import flyer5_img from '../assets/flyer5.jpg';
+import flyer6_img from '../assets/flyer6.jpg';
 
 const mywork_data = [
 
@@ -50,16 +56,30 @@ const mywork_data = [
   },
 
   // Graphics Projects
+  // {
+  //   type: 'graphics',
+  //   w_img: '/images/graphics1.png',
+  //   w_name: 'Brand Logo Design',
+  //   w_description: 'Professional logo design services for businesses and startups. Creating memorable and impactful brand identities that reflect company values and appeal to target audiences.',
+  //   w_link: 'https://behance.net/your-portfolio/logo-design',
+  // },
   {
     type: 'graphics',
-    w_img: '/images/graphics1.png',
-    w_name: 'Brand Logo Design',
-    w_description: 'Professional logo design services for businesses and startups. Creating memorable and impactful brand identities that reflect company values and appeal to target audiences.',
-    w_link: 'https://behance.net/your-portfolio/logo-design',
+    w_img: flyer1_img,
+    w_name: 'Poster Illustration',
+    w_description: 'Creative poster designs for events, marketing campaigns, and artistic projects. Combining typography, imagery, and visual hierarchy to create compelling visual communications.',
+    w_link: 'https://dribbble.com/your-portfolio/poster-designs',
   },
   {
     type: 'graphics',
-    w_img: '/images/graphics2.png',
+    w_img: flyer7_img,
+    w_name: 'Poster Illustration',
+    w_description: 'Creative poster designs for events, marketing campaigns, and artistic projects. Combining typography, imagery, and visual hierarchy to create compelling visual communications.',
+    w_link: 'https://dribbble.com/your-portfolio/poster-designs',
+  },
+  {
+    type: 'graphics',
+    w_img: flyer2_img,
     w_name: 'Poster Illustration',
     w_description: 'Creative poster designs for events, marketing campaigns, and artistic projects. Combining typography, imagery, and visual hierarchy to create compelling visual communications.',
     w_link: 'https://dribbble.com/your-portfolio/poster-designs',

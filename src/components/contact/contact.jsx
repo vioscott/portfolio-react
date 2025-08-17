@@ -122,9 +122,9 @@ const Contact = () => {
               },
               {
                 platform: "Medium",
-                description: "My thoughts and writings on UI/UX",
+                description: "Read all my Articles",
                 icon: <FaMedium />,
-                link: "https://medium.com/vioscott",
+                link: "https://medium.com/@vioscott",
               },
               {
                 platform: "Instagram",

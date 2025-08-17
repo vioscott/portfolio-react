@@ -10,7 +10,7 @@ import {
   SiTailwindcss,
   SiGit,
 } from "react-icons/si";
-import profile_image from "../../assets/profile-image-black.jpeg";
+import profile_image from "../../assets/profile-image-black.jpg";
 import resume_image from "../../assets/resume.png"
 import Typewriter from "./typewriter"; // import the typewriter
 

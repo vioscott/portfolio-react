@@ -6,7 +6,7 @@ import {
   FaCertificate, FaQuestionCircle, FaLightbulb, FaInfoCircle
 } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import profile_image from '../../assets/profile-image-black.jpeg';
+import profile_image from '../../assets/profile-image-black.jpg';
 import resume_image from "../../assets/resume.png"
 
 const fadeInUp = {

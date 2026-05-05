@@ -14,7 +14,7 @@
   z-index: 1000;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-  min-width: 400px;
+  /* min-width: 400px; */
   max-width: 40%;
 }
 
@@ -130,7 +130,7 @@
 /* Mobile Nav Menu (Fixed & Scrollable) */
 @media (max-width: 700px) {
   .navbar {
-    max-width: 80%;
+    max-width: 100%;
     padding: 5px 20px;
     margin: auto;
     left: 2px;
@@ -165,7 +165,9 @@
   }
 
   .nav-connect {
-    display: none;
+    margin: 10px auto 0;
+    width: 60%;
+    text-align: center;
   }
 
   .nav-connect a {

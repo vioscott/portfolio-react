@@ -165,9 +165,7 @@
   }
 
   .nav-connect {
-    margin: 10px auto 0;
-    width: 60%;
-    text-align: center;
+    display: none;
   }
 
   .nav-connect a {

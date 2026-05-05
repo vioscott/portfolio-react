@@ -154,6 +154,10 @@
     overflow-y: auto;
   }
 
+  body.dark .nav-menu {
+    background: rgba(22, 30, 46, 0.85);
+  }
+
   .nav-menu.open {
     display: flex;
   }
@@ -212,6 +216,3 @@ body.dark .nav-connect a {
 body.dark .hamburger span {
   background-color: #f1f5f9;
 }
-
-/* Ensure mobile drawer background stays dark in light mode too, if intended */
-/* But following screenshot 2, it's dark. */
